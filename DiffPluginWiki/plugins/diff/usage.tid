@@ -1,0 +1,15 @@
+title: $:/plugins/cehmke/diff/usage
+type: text/vnd.tiddlywiki
+
+The content of the `<$diff>` widget is ignored
+
+|!Attribute |!Description |
+|text1 |Text Version 1 |
+|text2 |Text Version 2 |
+|timeout |Number of seconds to map a diff before giving up (0 for infinity). |
+|edit_cost |Cost of an empty edit operation in terms of edit characters. |
+|cleanup |semantic: Increase human readability by factoring out commonalities which are likely to be coincidental.<br/>efficiency: Increase computational efficiency by factoring out short commonalities which are not worth the overhead. The larger the edit cost, the more agressive the cleanup.<br/>none: raw output |
+
+```
+<$diff text1="abcdf" text2="abdef" cleanup="none"/>
+```

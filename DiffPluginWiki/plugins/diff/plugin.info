@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/cehmke/diff",
+    "description": "Diff Widget which compares two blocks of plain text",
+    "author": "ChristianEhmke",
+    "version": "1.0.0",
+    "source": "https://github.com/cehmke/TW5-Diff",
+    "type": "application/json",
+    "plugin-type": "plugin",
+    "list": "readme usage license"
+}

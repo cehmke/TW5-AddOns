@@ -1,0 +1,21 @@
+{
+    "tiddlers": [
+        {
+            "file": "diff_match_patch_uncompressed.js",
+            "fields": {
+                "title": "$:/plugins/cehmke/diff/diff_match_patch_uncompressed.js",
+                "type": "application/javascript",
+                "module-type": "library"
+            },
+            "prefix": "(function(){\n",
+            "suffix": "exports.diff_match_patch = diff_match_patch;\n})();"
+        },
+        {
+            "file": "COPYING",
+            "fields": {
+                "title": "$:/plugins/cehmke/diff/DiffLicense",
+                "type": "text/plain"
+            }
+        }
+    ]
+}

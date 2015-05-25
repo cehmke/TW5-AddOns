@@ -1,0 +1,19 @@
+{
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/github-fork-ribbon",
+        "tiddlywiki/markdown"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla"
+    ],
+    "languages": [
+        "en-US"
+    ],
+    "build": {
+        "index": [
+            "--rendertiddler","$:/core/save/all","index.html","text/plain"
+        ]
+    }
+}

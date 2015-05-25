@@ -1,0 +1,6 @@
+title: $:/plugins/cehmke/diff/readme
+type: text/vnd.tiddlywiki
+
+The diff widget takes two texts and finds the differences. This implementation works on a character by character basis. The result of any diff may contain 'chaff', irrelevant small commonalities which complicate the output. A post-diff cleanup algorithm factors out these trivial commonalities.
+
+The widget ist based upon the [[google-diff-match-patch Project|https://code.google.com/p/google-diff-match-patch/]] by Neil Fraser.

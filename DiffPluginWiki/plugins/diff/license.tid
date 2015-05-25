@@ -1,0 +1,5 @@
+title: $:/plugins/cehmke/diff/license
+type: text/vnd.tiddlywiki
+
+* The embedded diff is licensed as [[Apache License, Version 2.0, January 2004|$:/plugins/cehmke/diff/DiffLicense]].
+* My contributions (by @cehmke) are covered by the [[MIT License|$:/plugins/cehmke/diff/MITLicense]].
