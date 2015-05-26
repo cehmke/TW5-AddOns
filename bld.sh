@@ -3,7 +3,7 @@
 # Build DiffPlugin for TiddlyWiki5
 
 tiddlywiki \
-	./DiffPluginWiki \
+	./editions/release \
 	--verbose \
 	--build \
 	|| exit 1

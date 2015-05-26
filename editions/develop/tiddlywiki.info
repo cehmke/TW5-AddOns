@@ -1,0 +1,19 @@
+{
+    "includeWikis": [
+        "../../DiffPluginWiki"
+    ],
+    "config": {
+        "default-tiddler-location": "../../DiffPluginWiki/tiddlers"
+    },
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/github-fork-ribbon"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla"
+    ],
+    "languages": [
+        "en-US"
+    ]
+}
